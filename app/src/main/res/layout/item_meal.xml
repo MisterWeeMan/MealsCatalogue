@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:elevation="@dimen/meal_card_elevation"
+    android:layout_margin="@dimen/meal_card_margin"
+
+    tools:ignore="UnusedAttribute" >
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <TextView
+            android:id="@+id/tv_meal_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/meal_name_margin"
+            android:gravity="center"
+            android:textSize="@dimen/meal_name_size"
+            android:textStyle="bold"
+
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toTopOf="@id/img_meal"
+
+            tools:text="Lamb and Potato pie"/>
+
+        <ImageView
+            android:id="@+id/img_meal"
+            android:layout_width="@dimen/meal_img_width"
+            android:layout_height="@dimen/meal_img_height"
+            android:layout_margin="@dimen/meal_img_margin"
+
+            app:layout_constraintStart_toStartOf="@id/tv_meal_name"
+            app:layout_constraintTop_toBottomOf="@id/tv_meal_name"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@id/tv_meal_name"
+
+            tools:src="@drawable/lamb_potato_pie"
+            tools:ignore="ContentDescription" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="item_card_height">400dp</dimen>
+    <dimen name="item_card_elevation">5dp</dimen>
+    <dimen name="item_card_margin">10dp</dimen>
+    <dimen name="img_category_width">150dp</dimen>
+    <dimen name="img_category_height">120dp</dimen>
+    <dimen name="text_category_name_size">20sp</dimen>
+    <dimen name="text_category_description_margin">10dp</dimen>
+    <dimen name="error_message_size">20sp</dimen>
+    <dimen name="meal_name_size">20sp</dimen>
+    <dimen name="meal_card_elevation">5dp</dimen>
+    <dimen name="meal_card_margin">10dp</dimen>
+    <dimen name="meal_name_margin">10dp</dimen>
+    <dimen name="meal_img_width">150dp</dimen>
+    <dimen name="meal_img_height">120dp</dimen>
+    <dimen name="meal_img_margin">10dp</dimen>
+</resources>
